@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            font-family: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;";
+        }
+    </style>
+</head>
+
+<body>
+    <h1><u>Introduction to HTML :</u></h1>
+    <P>
+        <strong>Html </strong>stands for <strong>hyper text markup language. </strong>It is a
+        language of web which is used to create website.
+    </P>
+
+    <img src="https://static.javatpoint.com/htmlpages/images/html-tutorial.png" alt="HTML tutorial" style="float:right;"
+        width="280" height="100">
+
+    <!-- <p style="style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;""> -->
+    <p>
+        In our tutorial, every topic is given step-by-step so that you can learn it in a
+        very easy way. If you are new in learning HTML, then you can learn HTML from basic
+        to a professional level and after learning HTML with CSS and JavaScript you will
+        be able to create your own interactive and dynamic website. But Now We will focus
+        on HTML only in this tutorial.
+    </p>
+    <p>The major points of HTML are given below:</p>
+
+    <ul type="circle">
+        <li>HTML stands for HyperText Markup Language.</li>
+        <li>HTML is used to create web pages and web applications</li>
+        <li>HTML is widely used language on the web.</li>
+        <li>We can create a static website by HTML only.</li>
+    </ul>
+    <h3 style="color: black; "><u>A basic HTML page start with :</u></h3>
+
+    <p><b style="color: brown;"><span class="tag">&lt;</span>! Doctype html> - </b> Specifies this is an html 5 doc.</p>
+    <p><b style="color: brown;"><span class="tag">&lt;</span>html> - </b>root of an HTML page open.</p>
+    <p><b style="color: brown;"><span class="tag">&lt;</span>head> - </b>contains page metadata (information about some
+        already existing data).</p>
+    <p><b style="color: brown;"><span class="tag">&lt;</span>title> - </b>title open.</p>
+    <p><b style="color: brown;"><span class="tag">&lt;</span>/title> - </b>title colose.</p>
+    <p><b style="color: brown;"><span class="tag">&lt;</span>/head> - </b>head colose.</p>
+    <p><b style="color: brown;"><span class="tag">&lt;</span>body> - </b>the main body of the page open.</p>
+    <p><b style="color: brown;"><span class="tag">&lt;</span>/body> - </b>the main body of the page close.</p>
+    <p><b style="color: brown;"><span class="tag">&lt;</span>/html> - </b>root of an HTML page open.</p>
+
+    <ul>
+        <li>We can use "insert element" or "view page source" option from chrome to look into website
+            <strong>HTML</strong> code.
+        </li>
+        <p><Strong>HTML element = </Strong>start tag + content + end tag.</p>
+    </ul>
+
+    <!-- COMMENTS IN HTML -->
+
+    <h3 style="color: black;"><u>Comment in HTML :</u></h3>
+    <p>Comments in html are used to mark text whic should not be parsed. Browser read whatever we written in our code.
+    </p>
+    <p><strong>Syntax :</strong></p>
+    <p style="color: yellowgreen;"><b><span class="tag">&lt;</span> !--HTML comments-- ></b></p>
+
+    <!-- HTML TAGS -->
+
+    <!-- 01 ANCHOR TAG -->
+
+    <h3 style="color: black;"><u>Basic Html tags :</u></h3>
+    <p><b>01. Anchor tag</b> - it is used, whenever we need any link or any URL in our website then we use anchor tag.</p>
+    <p><u>eg. </u><span class="tag">&lt;</span>a href="URL/link"content <span class="tag">&lt;</span>/a>.</p>
+    <ul>
+        <li>
+            In anhor tag opening and closing name should be same.
+        </li>
+        <li>
+            We can either use single (' ') or double courts (" ") in attributes.
+        </li>
+    </ul>
+
+    <!-- 02 HEADING TAG -->
+
+    <p>
+        <Strong>02. Heading tag</Strong> - it is used to write headings in html. It start with 
+        <strong>h1</strong> and end with <strong>h6</strong>, it works in the manner most important to least
+        important headings.
+    </p>
+    <p>
+        <u>eg.</u>
+        
+         <span class="tag">&lt;</span>h1> most imp. tag <span class="tag">&lt;</span>/h1>.<br>
+         <span class="tag">&lt;</span>h2> least imp. tag <span class="tag">&lt;</span>/h2>.<br>
+         <span class="tag">&lt;</span>h3> another imp. tag <span class="tag">&lt;</span>/h3>.<br>
+         <span class="tag">&lt;</span>h4> another imp. tag <span class="tag">&lt;</span>/h4>.<br>
+         <span class="tag">&lt;</span>h5> another imp. tag <span class="tag">&lt;</span>/h5>.<br>
+         <span class="tag">&lt;</span>h6> least imp. tag <span class="tag">&lt;</span>/h6>.<br> 
+    </p>
+
+    <!-- 03 PARAGRAPH TAG -->
+
+    <p>
+        <strong>03. Paragraph tag</strong> - it is used to add links to an existing content inside an html page.<br><br>
+        <u>eg.</u><span class="tag">&lt;</span>p> paragraph <span class="tag">&lt;</span>/p>.
+    </p>
+
+    <!-- 04 RELATIVE LINK TAG -->
+
+    <p>
+        <strong>04. Relative link tag</strong> - if we want to go one html file to another html file in our own envoirment then we use this.<br>
+        <strong>NOTE :</strong> it only works on same operating system.<br><br>
+        <u>eg.</u><span class="tag">&lt;</span>a href="/html file name.file extension">name<span class="tag">&lt;</span>/a>.
+    </p>
+
+    <!-- 05 IMAGE TAG -->
+
+    <p><strong>05. Image tag</strong> - it is used to add any image in an html page.</p>
+    <p>
+        <u>eg.</u>
+        <ul>
+            Want image online
+            <li>
+                <span class="tag">&lt;</span>img src="image link"><br>
+            </li>
+            Want image from own system
+            <li>
+                <span class="tag">&lt;</span>img src="system path"><br>
+            </li>
+        </ul>
+
+        <p>If we lode any image and the link or path are wrong or the image was not there, then we use <strong>alt</strong>.</p>
+        <u>eg.</u><span class="tag">&lt;</span>img src="path/link" alt="what we wnat to show insted of that image"><br>
+    </p>
+
+    <!--06 BOLD, ITALIC & UNDERLNE TAG  -->
+
+    <p>
+        <strong>06. Bold, Italic & Underline tag</strong> - they are use to hghlight the text as follows.<br><br>
+        Bold -
+        <u>eg.</u><span class="tag">&lt;</span>b> name <span class="tag">&lt;</span>/b>.<br>
+        Italic -
+        <u>eg.</u><span class="tag">&lt;</span>i> name <span class="tag">&lt;</span>/i>.<br>
+        Underline -
+        <u>eg.</u><span class="tag">&lt;</span>u> name <span class="tag">&lt;</span>/u>.<br>
+    </p>
+
+    <!-- 07 BR TAG -->
+
+    <p>
+        <strong>07. Br tag</strong> - it is used to create line breaks in an html document.<br><br>
+        <u>eg.</u><span class="tag">&lt;</span>br>.
+    </p>
+
+    <!-- 08 BIG AND SMALL TAG -->
+
+    <P>
+        <strong>08. Big and Small tag</strong> - with the help of this we can make the text bit larger and a bit
+        smaller using big and small tag.<br><br>
+        for Big - 
+        <u>eg.</u><span class="tag">&lt;</span>big> content <span class="tag">&lt;</span>/big>.<br>
+        for Small - 
+        <u>eg.</u><span class="tag">&lt;</span>small> content <span class="tag">&lt;</span>/small>.
+    </P>
+
+    <!-- 09. HR TAG -->
+
+    <p>
+        <strong>09. Hr tag</strong> - it is use to creat a horizontal line to seperate the content.<br><br>
+        <u>eg.</u><span class="tag">&lt;</span>hr>.
+    </p>
+
+    <!-- 10. SUBSCRIPT AND SUPERSCRIPT TAG -->
+
+    <P>
+        <strong>10. Subscript and Superscript</strong> - <br>
+        <ol type="i"><u>Subscript</u> - whenever we want to write any chemical formula like CO<sub>2</sub> then we use 
+        <strong>subscript</strong>.</ol>
+        <u>eg.</u><span class="tag">&lt;</span>sub> content <span class="tag">&lt;</span>/sub><br>
+        <u>code eg. to write CO<sub>2</sub></u> - <span class="tag">&lt;</span>p>CO<span class="tag">&lt;</span>sub>2<span class="tag">&lt;</span>/sub><span class="tag">&lt;</span>/p>.
+
+        <ol type="I"><u>Superscript</u> - whenever we write anything as the power of number or formula like a<sup>2</sup>-b<sup>2</sup> then we use <strong>Superscript</strong>.</ol>
+        <u>eg.</u><span class="tag">&lt;</span>sup> content <span class="tag">&lt;</span>/sup>.<br>
+        <u>code eg. to write a<sup>2</sup>-b<sup>2</sup></u> - <span class="tag">&lt;</span>p>a<span class="tag">&lt;</span>sup>2<span class="tag">&lt;</span>/sup>-b<span class="tag">&lt;</span>sup>2<span class="tag">&lt;</span>/sup>.
+    </P>
+
+    <!-- 11. PRE TAG -->
+
+    <p>
+        <strong>11. Pre tag</strong> - html always ignore extra spaces and new lines. In order to display a piece of text
+        or any paragraph as it is, then use <strong>Pre </strong> tag. <br>
+        <u>eg.</u>
+        <ul>
+            <span class="tag">&lt;</span>pre> 
+            <ul>
+                content1<br>
+                content2<br>
+                content3 ......
+            </ul>
+            <span class="tag">&lt;</span>/pre>
+        </ul>
+    </p>
+
+    <!-- 12. SYMBOLS -->
+
+    <p>
+        <strong>12. Symbols</strong> - if we want any symbols in our html code then check this link.
+        <a href="https://www.w3schools.com/html/html_symbols.asp" target="_main">Html symbols link</a>
+    </p>
+
+
+
+    <h1><u>HTML interview Question </u></h1>
+    <a href="HTMLimpQ.html" target="_main">imp Q</a>
+</body>
+
+</html>
